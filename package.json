@@ -2,18 +2,30 @@
   "name": "bookshelf_front_js",
   "version": "1.0.0",
   "description": "Client side of bookshelf REST API",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "books.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node books.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZuLwiK/bookshelf_front_JS.git"
+    "url": "https://github.com/ZuLwiK/bookshelf_front_JS"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ZuLwiK/bookshelf_front_JS/issues"
-  },
-  "homepage": "https://github.com/ZuLwiK/bookshelf_front_JS#readme"
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
