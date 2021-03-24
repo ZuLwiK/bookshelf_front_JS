@@ -1,0 +1,19 @@
+{
+  "name": "bookshelf_front_js",
+  "version": "1.0.0",
+  "description": "Client side of bookshelf REST API",
+  "main": "books.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZuLwiK/bookshelf_front_JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZuLwiK/bookshelf_front_JS/issues"
+  },
+  "homepage": "https://github.com/ZuLwiK/bookshelf_front_JS#readme"
+}
